@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF7B1E42-66FF-4346-BDDB-72E4436FCCCD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Astral</RootNamespace>
+    <AssemblyName>Astral</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NET_FRAMEWORK_20,NET_FRAMEWORK_35,USE_GENERICS;DNA</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ANTLRFileStream.cs">
+      <Link>Antlr\Antlr\ANTLRFileStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ANTLRInputStream.cs">
+      <Link>Antlr\Antlr\ANTLRInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ANTLRReaderStream.cs">
+      <Link>Antlr\Antlr\ANTLRReaderStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ANTLRStringStream.cs">
+      <Link>Antlr\Antlr\ANTLRStringStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\BaseRecognizer.cs">
+      <Link>Antlr\Antlr\BaseRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\BitSet.cs">
+      <Link>Antlr\Antlr\BitSet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\CharStreamConstants.cs">
+      <Link>Antlr\Antlr\CharStreamConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\CharStreamState.cs">
+      <Link>Antlr\Antlr\CharStreamState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ClassicToken.cs">
+      <Link>Antlr\Antlr\ClassicToken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Collections\CollectionUtils.cs">
+      <Link>Antlr\Runtime\Collections\CollectionUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Collections\HashList.cs">
+      <Link>Antlr\Runtime\Collections\HashList.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Collections\StackList.cs">
+      <Link>Antlr\Runtime\Collections\StackList.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\CommonErrorNode.cs">
+      <Link>Antlr\Antlr\CommonErrorNode.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\CommonToken.cs">
+      <Link>Antlr\Antlr\CommonToken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\CommonTokenStream.cs">
+      <Link>Antlr\Antlr\CommonTokenStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Constants.cs">
+      <Link>Antlr\Antlr\Constants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\DFA.cs">
+      <Link>Antlr\Antlr\DFA.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\EarlyExitException.cs">
+      <Link>Antlr\Antlr\EarlyExitException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\FailedPredicateException.cs">
+      <Link>Antlr\Antlr\FailedPredicateException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ICharStream.cs">
+      <Link>Antlr\Antlr\ICharStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\IIntStream.cs">
+      <Link>Antlr\Antlr\IIntStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\IToken.cs">
+      <Link>Antlr\Antlr\IToken.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ITokenSource.cs">
+      <Link>Antlr\Antlr\ITokenSource.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ITokenStream.cs">
+      <Link>Antlr\Antlr\ITokenStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Lexer.cs">
+      <Link>Antlr\Antlr\Lexer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Misc\ErrorManager.cs">
+      <Link>Antlr\Runtime\Misc\ErrorManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Misc\Stats.cs">
+      <Link>Antlr\Runtime\Misc\Stats.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MismatchedNotSetException.cs">
+      <Link>Antlr\Antlr\MismatchedNotSetException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MismatchedRangeException.cs">
+      <Link>Antlr\Antlr\MismatchedRangeException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MismatchedSetException.cs">
+      <Link>Antlr\Antlr\MismatchedSetException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MismatchedTokenException.cs">
+      <Link>Antlr\Antlr\MismatchedTokenException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MismatchedTreeNodeException.cs">
+      <Link>Antlr\Antlr\MismatchedTreeNodeException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\MissingTokenException.cs">
+      <Link>Antlr\Antlr\MissingTokenException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\NoViableAltException.cs">
+      <Link>Antlr\Antlr\NoViableAltException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Parser.cs">
+      <Link>Antlr\Antlr\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\ParserRuleReturnScope.cs">
+      <Link>Antlr\Antlr\ParserRuleReturnScope.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\RecognitionException.cs">
+      <Link>Antlr\Antlr\RecognitionException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\RecognizerSharedState.cs">
+      <Link>Antlr\Antlr\RecognizerSharedState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\RuleReturnScope.cs">
+      <Link>Antlr\Antlr\RuleReturnScope.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\SynPredPointer.cs">
+      <Link>Antlr\Antlr\SynPredPointer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Token.cs">
+      <Link>Antlr\Antlr\Token.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\TokenRewriteStream.cs">
+      <Link>Antlr\Antlr\TokenRewriteStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\BaseTree.cs">
+      <Link>Antlr\Runtime\Tree\BaseTree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\BaseTreeAdaptor.cs">
+      <Link>Antlr\Runtime\Tree\BaseTreeAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\CommonTree.cs">
+      <Link>Antlr\Runtime\Tree\CommonTree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\CommonTreeAdaptor.cs">
+      <Link>Antlr\Runtime\Tree\CommonTreeAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\CommonTreeNodeStream.cs">
+      <Link>Antlr\Runtime\Tree\CommonTreeNodeStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\ITree.cs">
+      <Link>Antlr\Runtime\Tree\ITree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\ITreeAdaptor.cs">
+      <Link>Antlr\Runtime\Tree\ITreeAdaptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\ITreeNodeStream.cs">
+      <Link>Antlr\Runtime\Tree\ITreeNodeStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\ITreeVisitorAction.cs">
+      <Link>Antlr\Runtime\Tree\ITreeVisitorAction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\ParseTree.cs">
+      <Link>Antlr\Runtime\Tree\ParseTree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteCardinalityException.cs">
+      <Link>Antlr\Runtime\Tree\RewriteCardinalityException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteEarlyExitException.cs">
+      <Link>Antlr\Runtime\Tree\RewriteEarlyExitException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteEmptyStreamException.cs">
+      <Link>Antlr\Runtime\Tree\RewriteEmptyStreamException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteRuleElementStream!1.cs">
+      <Link>Antlr\Runtime\Tree\RewriteRuleElementStream!1.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteRuleNodeStream.cs">
+      <Link>Antlr\Runtime\Tree\RewriteRuleNodeStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteRuleSubtreeStream.cs">
+      <Link>Antlr\Runtime\Tree\RewriteRuleSubtreeStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\RewriteRuleTokenStream.cs">
+      <Link>Antlr\Runtime\Tree\RewriteRuleTokenStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\Tree.cs">
+      <Link>Antlr\Runtime\Tree\Tree.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreeParser.cs">
+      <Link>Antlr\Runtime\Tree\TreeParser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreePatternLexer.cs">
+      <Link>Antlr\Runtime\Tree\TreePatternLexer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreePatternParser.cs">
+      <Link>Antlr\Runtime\Tree\TreePatternParser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreeRuleReturnScope.cs">
+      <Link>Antlr\Runtime\Tree\TreeRuleReturnScope.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreeVisitor.cs">
+      <Link>Antlr\Runtime\Tree\TreeVisitor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\TreeWizard.cs">
+      <Link>Antlr\Runtime\Tree\TreeWizard.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\Tree\UnBufferedTreeNodeStream.cs">
+      <Link>Antlr\Runtime\Tree\UnBufferedTreeNodeStream.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Antlr\Runtime\UnwantedTokenException.cs">
+      <Link>Antlr\Antlr\UnwantedTokenException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Antlr3.Runtime\Global.cs">
+      <Link>Antlr\Global.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\CachedConstructorInvoker.cs">
+      <Link>Jint\CachedConstructorInvoker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\CachedMethodInvoker.cs">
+      <Link>Jint\CachedMethodInvoker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\CachedReflectionPropertyGetter.cs">
+      <Link>Jint\CachedReflectionPropertyGetter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\CachedTypeResolver.cs">
+      <Link>Jint\CachedTypeResolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Debugger\BreakPoint.cs">
+      <Link>Debugger\BreakPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Debugger\DebugInformation.cs">
+      <Link>Debugger\DebugInformation.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Debugger\SourceCodeDescriptor.cs">
+      <Link>Debugger\SourceCodeDescriptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\DelegateWrapper.cs">
+      <Link>Jint\DelegateWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\ExecutionVisitor.cs">
+      <Link>Jint\ExecutionVisitor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ArrayDeclaration.cs">
+      <Link>Expressions\ArrayDeclaration.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\AssignmentExpression.cs">
+      <Link>Expressions\AssignmentExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\BinaryExpression.cs">
+      <Link>Expressions\BinaryExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\BlockStatement.cs">
+      <Link>Expressions\BlockStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\BreakStatement.cs">
+      <Link>Expressions\BreakStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\CaseClause.cs">
+      <Link>Expressions\CaseClause.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\CatchClause.cs">
+      <Link>Expressions\CatchClause.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ClrIdentifier.cs">
+      <Link>Expressions\ClrIdentifier.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\CommaOperatorStatement.cs">
+      <Link>Expressions\CommaOperatorStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ContinueStatement.cs">
+      <Link>Expressions\ContinueStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\DoWhileStatement.cs">
+      <Link>Expressions\DoWhileStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\EmptyStatement.cs">
+      <Link>Expressions\EmptyStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\Expression.cs">
+      <Link>Expressions\Expression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ExpressionStatement.cs">
+      <Link>Expressions\ExpressionStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\FinallyClause.cs">
+      <Link>Expressions\FinallyClause.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ForEachInStatement.cs">
+      <Link>Expressions\ForEachInStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ForStatement.cs">
+      <Link>Expressions\ForStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\FunctionDeclarationStatement.cs">
+      <Link>Expressions\FunctionDeclarationStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\FunctionExpression.cs">
+      <Link>Expressions\FunctionExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\IAssignable.cs">
+      <Link>Expressions\IAssignable.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\Identifier.cs">
+      <Link>Expressions\Identifier.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\IForStatement.cs">
+      <Link>Expressions\IForStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\IfStatement.cs">
+      <Link>Expressions\IfStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\IFunctionDeclaration.cs">
+      <Link>Expressions\IFunctionDeclaration.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\IGenericExpression.cs">
+      <Link>Expressions\IGenericExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\Indexer.cs">
+      <Link>Expressions\Indexer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\JsonExpression.cs">
+      <Link>Expressions\JsonExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\MemberExpression.cs">
+      <Link>Expressions\MemberExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\MethodCall.cs">
+      <Link>Expressions\MethodCall.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\NewExpression.cs">
+      <Link>Expressions\NewExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\Program.cs">
+      <Link>Expressions\Program.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\PropertyDeclarationExpression.cs">
+      <Link>Expressions\PropertyDeclarationExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\PropertyExpression.cs">
+      <Link>Expressions\PropertyExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\RegexpExpression.cs">
+      <Link>Expressions\RegexpExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ReturnStatement.cs">
+      <Link>Expressions\ReturnStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\Statement.cs">
+      <Link>Expressions\Statement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\SwitchStatement.cs">
+      <Link>Expressions\SwitchStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\TernaryExpression.cs">
+      <Link>Expressions\TernaryExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ThrowStatement.cs">
+      <Link>Expressions\ThrowStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\TryStatement.cs">
+      <Link>Expressions\TryStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\UnaryExpression.cs">
+      <Link>Expressions\UnaryExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\ValueExpression.cs">
+      <Link>Expressions\ValueExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\VariableDeclarationStatement.cs">
+      <Link>Expressions\VariableDeclarationStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\WhileStatement.cs">
+      <Link>Expressions\WhileStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Expressions\WithStatement.cs">
+      <Link>Expressions\WithStatement.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\IConstructorInvoker.cs">
+      <Link>Jint\IConstructorInvoker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\IJintVisitor.cs">
+      <Link>Jint\IJintVisitor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\IMethodInvoker.cs">
+      <Link>Jint\IMethodInvoker.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\IPropertyGetter.cs">
+      <Link>Jint\IPropertyGetter.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\ITypeResolver.cs">
+      <Link>Jint\ITypeResolver.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\JintEngine.cs">
+      <Link>Jint\JintEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\JintException.cs">
+      <Link>Jint\JintException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\CallProxyFunction.cs">
+      <Link>Native\CallProxyFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\ClrFunction.cs">
+      <Link>Native\ClrFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\ClrImplDefinition.cs">
+      <Link>Native\ClrImplDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\Descriptor.cs">
+      <Link>Native\Descriptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsApplyFunction.cs">
+      <Link>Native\JsApplyFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsArguments.cs">
+      <Link>Native\JsArguments.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsArray.cs">
+      <Link>Native\JsArray.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsArrayConstructor.cs">
+      <Link>Native\JsArrayConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsBoolean.cs">
+      <Link>Native\JsBoolean.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsBooleanConstructor.cs">
+      <Link>Native\JsBooleanConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsCallFunction.cs">
+      <Link>Native\JsCallFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsClr.cs">
+      <Link>Native\JsClr.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsClrConstructorInfo.cs">
+      <Link>Native\JsClrConstructorInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsClrMethodInfo.cs">
+      <Link>Native\JsClrMethodInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsComparer.cs">
+      <Link>Native\JsComparer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsConstructor.cs">
+      <Link>Native\JsConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsDate.cs">
+      <Link>Native\JsDate.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsDateConstructor.cs">
+      <Link>Native\JsDateConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsDictionaryObject.cs">
+      <Link>Native\JsDictionaryObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsError.cs">
+      <Link>Native\JsError.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsErrorConstructor.cs">
+      <Link>Native\JsErrorConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsException.cs">
+      <Link>Native\JsException.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsFunction.cs">
+      <Link>Native\JsFunction.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsFunctionConstructor.cs">
+      <Link>Native\JsFunctionConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsFunctionWrapper.cs">
+      <Link>Native\JsFunctionWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsGlobal.cs">
+      <Link>Native\JsGlobal.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsInstance.cs">
+      <Link>Native\JsInstance.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsMathConstructor.cs">
+      <Link>Native\JsMathConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsNull.cs">
+      <Link>Native\JsNull.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsNumber.cs">
+      <Link>Native\JsNumber.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsNumberConstructor.cs">
+      <Link>Native\JsNumberConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsObject.cs">
+      <Link>Native\JsObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsObjectConstructor.cs">
+      <Link>Native\JsObjectConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsPrototype.cs">
+      <Link>Native\JsPrototype.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsRegExp.cs">
+      <Link>Native\JsRegExp.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsRegExpConstructor.cs">
+      <Link>Native\JsRegExpConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsScope.cs">
+      <Link>Native\JsScope.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsString.cs">
+      <Link>Native\JsString.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsStringConstructor.cs">
+      <Link>Native\JsStringConstructor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\JsUndefined.cs">
+      <Link>Native\JsUndefined.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\PropertyAttributes.cs">
+      <Link>Native\PropertyAttributes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\PropertyDescriptor.cs">
+      <Link>Native\PropertyDescriptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Native\ValueDescriptor.cs">
+      <Link>Native\ValueDescriptor.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Number.cs">
+      <Link>Jint\Number.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Options.cs">
+      <Link>Jint\Options.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Parser\ES3Lexer.cs">
+      <Link>Parser\ES3Lexer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\Parser\ES3Parser.cs">
+      <Link>Parser\ES3Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\lib\Jint\Jint\ReflectionPropertyGetter.cs">
+      <Link>Jint\ReflectionPropertyGetter.cs</Link>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\func_jsonifier.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\test.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

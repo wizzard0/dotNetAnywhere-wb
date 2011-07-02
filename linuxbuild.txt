@@ -1,0 +1,6 @@
+cc -I. -lm -ldl -s -g -o dna *.c
+//cc -I. -I./include -I./include/freetype -lm -ldl -s -shared -g -o libIGraph.so *.c
+cc -I. -I./include -I./include/freetype -lm -ldl /usr/lib/libfreetype.so.6.6.0 -s -shared -g -o libIGraph.so *.c
+cp ../../dna/dna .
+cp ../../libIGraph/libIGraph.so .
+

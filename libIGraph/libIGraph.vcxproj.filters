@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\JPEG">
+      <UniqueIdentifier>{85a3d855-dc9d-46b6-b867-dae0545a4bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\JPEG">
+      <UniqueIdentifier>{3c6716ae-c507-4150-b7c0-981212fc46fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Brush.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawEllipses.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawLines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRectangles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontFamily.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetScreen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libIGraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pixels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFormat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jidctflt.c">
+      <Filter>Source Files\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyjpeg.c">
+      <Filter>Source Files\JPEG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libIGraph.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEllipses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawLines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawRectangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontFamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HatchBrushDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libIGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pixels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyjpeg-internal.h">
+      <Filter>Header Files\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyjpeg.h">
+      <Filter>Header Files\JPEG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\dna\pointers.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

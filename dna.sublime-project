@@ -1,0 +1,418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"UriF",
+				"UriFormatException"
+			],
+			[
+				"UriFor",
+				"UriFormatException"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/X/nekosvn/src/DNA_v0.2.7/ChangeLog.txt",
+			"settings":
+			{
+				"buffer_size": 8295,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/tmp/painting.txt",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/lib/sauerbraten/docs/dev/readme_developer.txt",
+			"settings":
+			{
+				"buffer_size": 15311,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/lib/MarchingCubes.cs",
+			"settings":
+			{
+				"buffer_size": 44676,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"file_history":
+	[
+		"/X/tmp/cudaparts/settings.txt",
+		"/C/Program Files (x86)/XMind/readme.txt",
+		"/X/tmp/Metaballs II/Technical.txt",
+		"/X/lib/Intel/MDTK/ManageabilityDeveloperToolKit/Source Code Readme.txt",
+		"/X/tmp/test.tcl",
+		"/C/Users/Wizzard/AppData/Local/Temp/Rar$DI02.702/readme.txt",
+		"/C/Users/Wizzard/AppData/Local/Temp/Rar$DI00.119/readme.txt",
+		"/C/Users/Wizzard/AppData/Local/Temp/Rar$DI47.529/settings.txt",
+		"/G/dl/Dirt.3-SKIDROW/skidrow.nfo",
+		"/X/lib/sauerbraten/src/readme_source.txt",
+		"/C/Users/Wizzard/AppData/Local/Temp/Rar$DI17.253/emerald_box.txt",
+		"/X/lib/FxaaSamplePack/README.txt",
+		"/G/svt/readme.txt",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections.Generic/Dictionary.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System/String.cs",
+		"/C/Program Files (x86)/Open Source/Mesh Management Tools/Exceptions-MeshKvmClient.txt",
+		"/C/Users/Wizzard/AppData/Local/Temp/Rar$DI01.007/rgba_inslexia.txt",
+		"/X/lib/cube_source/src/CUBE_TODO.txt",
+		"/X/lib/cube_source/readme.txt",
+		"/X/nekosvn/src/DNA_v0.2.7/Builds/Debug/a.txt",
+		"/C/Users/Wizzard/Documents/Encrypted Data/Black_Hole_Exploit_Kit/blackhole/games/hcp_vbs.php",
+		"/C/Users/Wizzard/Documents/Encrypted Data/Black_Hole_Exploit_Kit/blackhole/lib/funcs.php",
+		"/C/Users/Wizzard/Documents/Encrypted Data/Black_Hole_Exploit_Kit/THN.txt",
+		"/X/nekosvn/src/DNA_v0.2.7/System/System/Uri.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System/StringHelper.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System.Web/System.Web/HttpUtility.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System/Type.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/ASCIIEncoding.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/UTF8Encoding.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderReplacementFallbackBuffer.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderExceptionFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderExceptionFallbackBuffer.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderExceptionFallbackBuffer.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderExceptionFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/Encoding.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/Encoder.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncodingInfo.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/UnicodeEncoding.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/Decoder.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderFallbackException.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderReplacementFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderFallbackBuffer.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/DecoderFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderFallbackBuffer.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderReplacementFallback.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderFallbackException.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.Text/EncoderReplacementFallbackBuffer.cs",
+		"/X/lib/jsc/core/ScriptCoreLibJava/BCLImplementation/System/Text/UTF8Encoding.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System/String.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/System/System/UriComponents.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/System/System/UriParser.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System/UInt32.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections.Generic/SortedDictionary.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System.Collections.Generic/RBTree.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections.Generic/IEnumerable.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections.Generic/IEnumerator.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections/IEnumerable.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Collections/IEnumerator.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System/DateTime.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/corlib/System.Globalization/DateTimeFormatInfo.cs",
+		"/X/lib/mono-2.10.2/mcs/class/corlib/System.IO/MemoryStream.cs",
+		"/X/lib/mono-2.10.2/tools/locale-builder/DateTimeFormatEntry.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System.Web/System.Web.Util/HttpEncoder.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System/UriParser.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System/UriComponents.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System.Collections.Generic/SortedDictionary.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System/Uri.cs",
+		"/X/lib/mono-2.10.2/mcs/class/System/System/DefaultUriParser.cs",
+		"/Z/tmp/PSP-SDL-Makefile",
+		"/X/nekosvn/src/DNA_v0.2.7/System/System.Net.Sockets/Socket.cs",
+		"/X/lib/amule-2.3.1-r10562/amule/unittests/README",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/bitcoin-miner.cpp",
+		"//iskin4/Users/Public/Documents/a.txt",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/install-sh",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/INSTALL",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/file_config.h",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/ext_messages.h",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/AUTHORS",
+		"/C/Users/Wizzard/Downloads/ufasoft_bitcoin-miner-0.10/ChangeLog",
+		"/C/Users/Wizzard/AppData/LocalLow/cf_ie.txt",
+		"/X/lib/mono-2.10.2/mono/io-layer/ChangeLog",
+		"/X/nekosvn/src/DNA_v0.2.7/System/System.ComponentModel/EventHandlerList.cs",
+		"/X/lib/mono-2.10.2/mono/io-layer/socket-wrappers.h",
+		"/X/lib/mono-2.10.2/mono/io-layer/socket-private.h",
+		"/X/nekosvn/src/DNA_v0.2.7/System.Windows.Forms/KeyEventArgs.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/System.Windows.Forms/KeyPressEventArgs.cs",
+		"/X/nekosvn/src/DNA_v0.2.7/System.Windows.Forms/PaintEventArgs.cs",
+		"/X/lib/mono-2.10.2/mono/io-layer/wait.c",
+		"/X/lib/mono-2.10.2/mono/io-layer/wapi-private.h",
+		"/X/lib/tonika/art/Archi.ai",
+		"/X/lib/tonika/GOGUIDE",
+		"/G/dl/Hydrophobia.Prophecy-SKIDROW/skidrow.nfo",
+		"/X/nekosvn/src/DNA_v0.2.7/ChangeLog.txt",
+		"/G/dl/The.Witcher.2.Assassins.of.Kings-SKIDROW/skidrow.nfo",
+		"/G/the witcher 2/ReadMe.txt",
+		"/C/Users/Wizzard/Dropbox/reprap/src/FiveD_GCode_Interpreter/cartesian_dda.pde",
+		"/X/lib/eMule0.50a-ScarAngel_v4.0-src/zlib/contrib/masmx86/readme.txt",
+		"/G/dl/The.Witcher.2.Assassins.of.Kings-SKIDROW/DVD1/skidrow.nfo",
+		"/G/dl/The.Witcher.2.Assassins.of.Kings-SKIDROW/DVD2/skidrow.nfo",
+		"/C/Users/Wizzard/AppData/LocalLow/lololo.txt",
+		"/C/Users/Wizzard/AppData/LocalLow/ffxlog.txt",
+		"/X/nekosvn/src/DNA_v0.2.7/Builds/Debug/b.txt",
+		"/X/lib/DNA_v0.2.6/Builds/Debug/a.txt",
+		"/X/lib/DNA_v0.2.6/System/System.ComponentModel/EventHandlerList.cs",
+		"/X/lib/aMule-2.2.6/MSVC Solution/README - MSVC.txt",
+		"/X/tmp/t.html",
+		"/X/lib/eMule0.50a-ScarAngel_v4.0-src/srchybrid/GZipFile.cpp",
+		"/X/lib/eMule0.50a-ScarAngel_v4.0-src/How-To-Compile_VS10.txt",
+		"/X/lib/emule050-xtreme/changelog xtreme.txt",
+		"/X/lib/eMule0.50a-Sources/changelog_full.txt",
+		"/C/Users/Wizzard/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Users/Wizzard/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/X/tmp/All-In-One Code Framework 2011-03-08/Visual Studio 2010/CSNET2ClassLibrary/CSSimpleObject.cs",
+		"/C/Users/Wizzard/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Users/Wizzard/AppData/Roaming/Sublime Text 2/Packages/User/Global.sublime-settings"
+	],
+	"find_in_files":
+	{
+		"include_history":
+		[
+			""
+		],
+		"location_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ERR:",
+			"ERR",
+			"GetSlot",
+			"EnsureSpace",
+			"Add(",
+			"Add",
+			"GetHashCode",
+			"Length",
+			"public int",
+			"public int Length",
+			"int Length",
+			"Compare",
+			"ipv6",
+			"class DateTimeFormatInfo",
+			"DateTimeFormatInfo",
+			"ISeria",
+			"Serializable",
+			"[Ser",
+			"compare",
+			"int CompareOrdinal",
+			"CompareOrdinal",
+			"Substring",
+			"WSAENOTSOCK",
+			"wsasetlasterror",
+			"TargetedPatchingOptOut"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	{
+		"mount_points":
+		[
+			"/X/nekosvn/src/DNA_v0.2.7",
+			"/X/lib/mono-2.10.2"
+		]
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/X/nekosvn/src/DNA_v0.2.7/ChangeLog.txt",
+					"settings":
+					{
+						"buffer_size": 8295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1020,
+								1020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/X/tmp/painting.txt",
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/X/lib/sauerbraten/docs/dev/readme_developer.txt",
+					"settings":
+					{
+						"buffer_size": 15311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12809,
+								12809
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 3118,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/X/lib/MarchingCubes.cs",
+					"settings":
+					{
+						"buffer_size": 44676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+			[
+				"string",
+				"DNA_v0.2.7/corlib/System/String.cs"
+			],
+			[
+				"dtfi",
+				"DNA_v0.2.7/corlib/System.Globalization/DateTimeFormatInfo.cs"
+			],
+			[
+				"datetimefor",
+				"mono-2.10.2/tools/locale-builder/DateTimeFormatEntry.cs"
+			],
+			[
+				"uri.cs",
+				"DNA_v0.2.7/System/System/Uri.cs"
+			],
+			[
+				"eventha",
+				"System/System.ComponentModel/EventHandlerList.cs"
+			]
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 500,
+		"selected_items":
+		[
+		],
+		"width": 380
+	},
+	"show_minimap": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230,
+	"status_bar_visible": true
+}
