@@ -40,10 +40,6 @@ namespace test
                 {
                     s += Program.getstring(b2, 0, r);
                     Console.Write(".");
-                    //for (int i = 0; i < 10; i++)
-                    //{
-                    //    Console.Write(b2[r - 10 + i].ToString("X2") + " ");
-                    //}
                     if (s.EndsWith("\r\n\r\n")) break;
                 }
                 Console.WriteLine(s+">END");
