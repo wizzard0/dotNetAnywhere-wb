@@ -62,6 +62,7 @@ namespace test
         class cc { public cc(string s) { }  }
         static void Main(string[] args)
         {
+            Action<int, int, int> xx = null;
             JsGlobal dummy;
             var k = new EVisitor();
             Console.WriteLine(k.obj);
